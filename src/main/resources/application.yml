@@ -1,0 +1,11 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/phone_shop
+  username: phone_shop
+  password: 123@admin
+ jpa:
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+  hibernate:
+    ddl-auto: update
