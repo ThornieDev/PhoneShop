@@ -63,8 +63,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<annotationProcessorPaths>
-						//Add new
-<!--						<argLine>-javaagent:${settings.localRepository}/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar</argLine>-->
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>

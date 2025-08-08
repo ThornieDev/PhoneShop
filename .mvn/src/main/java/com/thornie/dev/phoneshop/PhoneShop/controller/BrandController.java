@@ -1,12 +1,13 @@
 package com.thornie.dev.phoneshop.PhoneShop.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
 import com.thornie.dev.phoneshop.PhoneShop.dto.BrandDTO;
 import com.thornie.dev.phoneshop.PhoneShop.entity.Brand;
 import com.thornie.dev.phoneshop.PhoneShop.service.BrandService;
 import com.thornie.dev.phoneshop.PhoneShop.service.util.Mapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("brands")
